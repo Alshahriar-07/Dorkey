@@ -1,25 +1,418 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Dorkey — Free Typing Speed Test &amp; Online Typing Test</title>
-  <meta name="description" content="Test and improve your typing speed with Dorkey. Take a free online typing speed test with live WPM, CPM, accuracy, errors, timed tests, and instant results.">
+
+  <meta
+    name="description"
+    content="Test and improve your typing speed with Dorkey. Take a free online typing speed test with live WPM, CPM, accuracy, errors, timed tests, and instant results."
+  >
+
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Dorkey">
+  <meta name="theme-color" content="#ffffff">
+
   <link rel="canonical" href="https://dorkey.vercel.app/">
-  <meta property="og:title" content="Dorkey — Free Typing Speed Test &amp; Online Typing Test"><meta property="og:description" content="Build speed, accuracy, and confidence with a focused free online typing test."><meta property="og:url" content="https://dorkey.vercel.app/"><meta property="og:type" content="website"><meta property="og:site_name" content="Dorkey"><meta property="og:image" content="https://dorkey.vercel.app/assets/dorkey-logo.png">
-  <meta name="twitter:card" content="summary"><meta name="twitter:title" content="Dorkey — Free Typing Speed Test"><meta name="twitter:description" content="Practice typing with live WPM, CPM, accuracy, and instant private results."><meta name="twitter:image" content="https://dorkey.vercel.app/assets/dorkey-logo.png">
-  <link rel="icon" type="image/png" href="assets/dorkey-favicon.png"><link rel="apple-touch-icon" href="assets/dorkey-icon.png"><link rel="stylesheet" href="css/style.css">
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","name":"Dorkey","url":"https://dorkey.vercel.app/","description":"A free online typing speed test."},{"@type":"Organization","name":"Dorkey","url":"https://dorkey.vercel.app/","logo":"https://dorkey.vercel.app/assets/dorkey-logo.png"},{"@type":"WebPage","name":"Dorkey Free Typing Speed Test","url":"https://dorkey.vercel.app/"}]}</script>
+
+  <!-- Open Graph / Social Sharing -->
+  <meta
+    property="og:title"
+    content="Dorkey — Free Typing Speed Test &amp; Online Typing Test"
+  >
+  <meta
+    property="og:description"
+    content="Build speed, accuracy, and confidence with a focused free online typing test."
+  >
+  <meta property="og:url" content="https://dorkey.vercel.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Dorkey">
+
+  <!-- Social preview image -->
+  <meta
+    property="og:image"
+    content="https://dorkey.vercel.app/assets/link.jpg"
+  >
+  <meta
+    property="og:image:secure_url"
+    content="https://dorkey.vercel.app/assets/link.jpg"
+  >
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:alt" content="Dorkey — Free Typing Speed Test">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta
+    name="twitter:title"
+    content="Dorkey — Free Typing Speed Test"
+  >
+  <meta
+    name="twitter:description"
+    content="Practice typing with live WPM, CPM, accuracy, and instant private results."
+  >
+  <meta
+    name="twitter:image"
+    content="https://dorkey.vercel.app/assets/link.jpg"
+  >
+  <meta
+    name="twitter:image:alt"
+    content="Dorkey — Free Typing Speed Test"
+  >
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/dorkey-favicon.png">
+  <link rel="apple-touch-icon" href="assets/dorkey-icon.png">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "Dorkey",
+        "url": "https://dorkey.vercel.app/",
+        "description": "A free online typing speed test."
+      },
+      {
+        "@type": "Organization",
+        "name": "Dorkey",
+        "url": "https://dorkey.vercel.app/",
+        "logo": "https://dorkey.vercel.app/assets/dorkey-logo.png"
+      },
+      {
+        "@type": "WebPage",
+        "name": "Dorkey Free Typing Speed Test",
+        "url": "https://dorkey.vercel.app/"
+      }
+    ]
+  }
+  </script>
 </head>
+
 <body>
-  <header class="topbar"><div class="shell nav"><a class="brand" href="index.html" aria-label="Dorkey home"><img src="assets/dorkey-logo.png" alt="Dorkey"></a><button class="nav-toggle" aria-expanded="false" aria-label="Open menu">Menu</button><nav class="nav-links"><a href="index.html" aria-current="page">Home</a><a href="pages/test.html">Test</a><a href="pages/about.html">About</a></nav></div></header>
+
+  <header class="topbar">
+    <div class="shell nav">
+
+      <a class="brand" href="index.html" aria-label="Dorkey home">
+        <img src="assets/dorkey-logo.png" alt="Dorkey">
+      </a>
+
+      <button
+        class="nav-toggle"
+        aria-expanded="false"
+        aria-label="Open menu"
+      >
+        Menu
+      </button>
+
+      <nav class="nav-links">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="pages/test.html">Test</a>
+        <a href="pages/about.html">About</a>
+      </nav>
+
+    </div>
+  </header>
+
   <main>
-    <section class="shell hero"><div class="animate"><div class="eyebrow">A better way to practice</div><h1>Type with <span style="color:var(--blue-dark)">purpose.</span></h1><p class="lead">A premium typing speed test designed to make progress feel clear, focused, and rewarding.</p><div class="actions"><a class="button primary" href="pages/test.html">Start typing test <span aria-hidden="true">→</span></a><a class="button ghost" href="#features">Explore features</a></div></div><div class="hero-card animate delay-2"><div class="mini-top"><span class="status-dot">Live practice session</span><span>01 / 05</span></div><div class="preview-text">The best interface <strong>guides attention</strong> without asking for it too loudly.</div><div class="metric-row"><div class="metric"><b>72</b><span>WPM</span></div><div class="metric"><b>98%</b><span>Accuracy</span></div><div class="metric"><b>A+</b><span>Rank</span></div></div></div></section>
-    <section id="features" class="section"><div class="shell"><div class="section-heading"><div class="eyebrow">Everything you need</div><h2>Practice that stays out of your way.</h2><p>Every detail is built around the moment your fingers meet the keyboard.</p></div><div class="grid-3"><article class="card feature animate"><div class="feature-icon">↗</div><h3>Live WPM</h3><p>See your speed update as you type, calculated from your actual performance.</p></article><article class="card feature animate delay-1"><div class="feature-icon">◎</div><h3>True accuracy</h3><p>Correct and incorrect characters stay visible so every session teaches you something.</p></article><article class="card feature animate delay-2"><div class="feature-icon">✦</div><h3>Personal ranks</h3><p>Finish a passage and earn a motivating rank that reflects your current pace.</p></article></div></div></section>
-    <section class="section"><div class="shell"><div class="section-heading"><div class="eyebrow">How it works</div><h2>Four simple steps to a stronger rhythm.</h2></div><div class="steps"><article class="card step"><div class="step-num">01</div><h3>Start a test</h3><p>Choose a comfortable duration and focus in.</p></article><article class="card step"><div class="step-num">02</div><h3>Type the passage</h3><p>Use backspace, find your flow, and stay accurate.</p></article><article class="card step"><div class="step-num">03</div><h3>Track performance</h3><p>Watch WPM, CPM, accuracy, and errors live.</p></article><article class="card step"><div class="step-num">04</div><h3>Get your rank</h3><p>See your result and return for another round.</p></article></div></div></section>
-    <section class="shell card cta"><div class="eyebrow">Your next session is ready</div><h2>Make a little progress today.</h2><p>No account, no distractions, no waiting. Just a great typing test.</p><a class="button primary" href="pages/test.html">Start typing test →</a></section>
+
+    <!-- Hero -->
+    <section class="shell hero">
+
+      <div class="animate">
+
+        <div class="eyebrow">A better way to practice</div>
+
+        <h1>
+          Type with
+          <span style="color:var(--blue-dark)">purpose.</span>
+        </h1>
+
+        <p class="lead">
+          A premium typing speed test designed to make progress feel clear,
+          focused, and rewarding.
+        </p>
+
+        <div class="actions">
+          <a class="button primary" href="pages/test.html">
+            Start typing test
+            <span aria-hidden="true">→</span>
+          </a>
+
+          <a class="button ghost" href="#features">
+            Explore features
+          </a>
+        </div>
+
+      </div>
+
+      <div class="hero-card animate delay-2">
+
+        <div class="mini-top">
+          <span class="status-dot">Live practice session</span>
+          <span>01 / 05</span>
+        </div>
+
+        <div class="preview-text">
+          The best interface
+          <strong>guides attention</strong>
+          without asking for it too loudly.
+        </div>
+
+        <div class="metric-row">
+
+          <div class="metric">
+            <b>72</b>
+            <span>WPM</span>
+          </div>
+
+          <div class="metric">
+            <b>98%</b>
+            <span>Accuracy</span>
+          </div>
+
+          <div class="metric">
+            <b>A+</b>
+            <span>Rank</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="section">
+
+      <div class="shell">
+
+        <div class="section-heading">
+
+          <div class="eyebrow">Everything you need</div>
+
+          <h2>Practice that stays out of your way.</h2>
+
+          <p>
+            Every detail is built around the moment your fingers meet
+            the keyboard.
+          </p>
+
+        </div>
+
+        <div class="grid-3">
+
+          <article class="card feature animate">
+
+            <div class="feature-icon">↗</div>
+
+            <h3>Live WPM</h3>
+
+            <p>
+              See your speed update as you type, calculated from
+              your actual performance.
+            </p>
+
+          </article>
+
+          <article class="card feature animate delay-1">
+
+            <div class="feature-icon">◎</div>
+
+            <h3>True accuracy</h3>
+
+            <p>
+              Correct and incorrect characters stay visible so every
+              session teaches you something.
+            </p>
+
+          </article>
+
+          <article class="card feature animate delay-2">
+
+            <div class="feature-icon">✦</div>
+
+            <h3>Personal ranks</h3>
+
+            <p>
+              Finish a passage and earn a motivating rank that reflects
+              your current pace.
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- How It Works -->
+    <section class="section">
+
+      <div class="shell">
+
+        <div class="section-heading">
+
+          <div class="eyebrow">How it works</div>
+
+          <h2>Four simple steps to a stronger rhythm.</h2>
+
+        </div>
+
+        <div class="steps">
+
+          <article class="card step">
+
+            <div class="step-num">01</div>
+
+            <h3>Start a test</h3>
+
+            <p>
+              Choose a comfortable duration and focus in.
+            </p>
+
+          </article>
+
+          <article class="card step">
+
+            <div class="step-num">02</div>
+
+            <h3>Type the passage</h3>
+
+            <p>
+              Use backspace, find your flow, and stay accurate.
+            </p>
+
+          </article>
+
+          <article class="card step">
+
+            <div class="step-num">03</div>
+
+            <h3>Track performance</h3>
+
+            <p>
+              Watch WPM, CPM, accuracy, and errors live.
+            </p>
+
+          </article>
+
+          <article class="card step">
+
+            <div class="step-num">04</div>
+
+            <h3>Get your rank</h3>
+
+            <p>
+              See your result and return for another round.
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- CTA -->
+    <section class="shell card cta">
+
+      <div class="eyebrow">Your next session is ready</div>
+
+      <h2>Make a little progress today.</h2>
+
+      <p>
+        No account, no distractions, no waiting. Just a great typing test.
+      </p>
+
+      <a class="button primary" href="pages/test.html">
+        Start typing test →
+      </a>
+
+    </section>
+
   </main>
-  <footer class="footer"><div class="shell footer-inner"><div><img src="assets/dorkey-logo.png" alt="Dorkey"><small>Created by <a href="https://alshahriarsayon.vercel.app/" target="_blank" rel="noopener">Al Shahriar sowan</a> · <a href="https://eagoxstudio.vercel.app/" target="_blank" rel="noopener">Eagox Studio</a></small></div><nav class="footer-links"><a href="index.html">Home</a><a href="pages/test.html">Test</a><a href="pages/about.html">About</a><a href="pages/privacy.html">Privacy</a></nav></div></footer>
-  <aside class="consent" id="consent" hidden><h3>Your privacy matters</h3><p>Dorkey uses browser storage only to remember consent and your latest local result. No tracking or advertising cookies.</p><div class="consent-actions"><a href="pages/privacy.html" class="button ghost">Privacy policy</a><button id="decline-consent" class="button">Decline</button><button id="accept-consent" class="button primary">Accept</button></div></aside>
+
+  <!-- Footer -->
+  <footer class="footer">
+
+    <div class="shell footer-inner">
+
+      <div>
+
+        <img src="assets/dorkey-logo.png" alt="Dorkey">
+
+        <small>
+          Created by
+          <a
+            href="https://alshahriarsayon.vercel.app/"
+            target="_blank"
+            rel="noopener"
+          >
+            Al Shahriar sowan
+          </a>
+          ·
+          <a
+            href="https://eagoxstudio.vercel.app/"
+            target="_blank"
+            rel="noopener"
+          >
+            Eagox Studio
+          </a>
+        </small>
+
+      </div>
+
+      <nav class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="pages/test.html">Test</a>
+        <a href="pages/about.html">About</a>
+        <a href="pages/privacy.html">Privacy</a>
+      </nav>
+
+    </div>
+
+  </footer>
+
+  <!-- Privacy Consent -->
+  <aside class="consent" id="consent" hidden>
+
+    <h3>Your privacy matters</h3>
+
+    <p>
+      Dorkey uses browser storage only to remember consent and your
+      latest local result. No tracking or advertising cookies.
+    </p>
+
+    <div class="consent-actions">
+
+      <a href="pages/privacy.html" class="button ghost">
+        Privacy policy
+      </a>
+
+      <button id="decline-consent" class="button">
+        Decline
+      </button>
+
+      <button id="accept-consent" class="button primary">
+        Accept
+      </button>
+
+    </div>
+
+  </aside>
+
+  <!-- JavaScript -->
   <script type="module" src="js/main.js"></script>
+
 </body>
 </html>
