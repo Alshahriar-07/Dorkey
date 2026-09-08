@@ -77,13 +77,20 @@ const sharedPracticeTail = "Keep your eyes a few words ahead, let the punctuatio
 export const passages = passageDrafts.map((passage, index) => `${passage} ${passageExtensions[index]} ${sharedPracticeTail}`);
 
 export const ranks = [
-  { name: "Beginner", minWpm: 0, description: "You are building a strong foundation." },
-  { name: "Horse", minWpm: 20, description: "Steady practice is carrying you forward." },
-  { name: "Cheetah", minWpm: 40, description: "Your fingers are finding a confident rhythm." },
-  { name: "Dragon", minWpm: 60, description: "Fast, focused, and impressively consistent." },
-  { name: "Falcon", minWpm: 80, description: "You spot the next character before it arrives." },
-  { name: "Comet", minWpm: 100, description: "Your speed is entering an exceptional orbit." },
-  { name: "Legend", minWpm: 130, description: "A remarkable command of the keyboard." }
+  { name: "Baby Bunny", minWpm: 0, description: "Every fast typist starts somewhere. Keep hopping!" },
+  { name: "Kitten", minWpm: 11, description: "Soft and steady! Your fingers are finding their rhythm." },
+  { name: "Puppy", minWpm: 21, description: "Good job! Your typing skills are growing every day." },
+  { name: "Bumblebee", minWpm: 31, description: "Clever and quick! You're getting comfortable with the keyboard." },
+  { name: "Panda", minWpm: 41, description: "Calm, focused, and getting faster with every test." },
+  { name: "Unicorn", minWpm: 51, description: "Small but speedy! Your typing rhythm is getting stronger." },
+  { name: "Cheatah", minWpm: 61, description: "Magical speed! Your fingers are flying across the keyboard." },
+  { name: "Phoenix", minWpm: 71, description: "You're rising fast! Your typing is becoming seriously impressive." },
+  { name: "Dragon", minWpm: 81, description: "Powerful typing! Your keyboard skills are blazing." },
+  { name: "Pegasus", minWpm: 91, description: "You're flying now! Your typing speed is truly impressive." },
+  { name: "Comet", minWpm: 101, description: "Lightning fast! You're leaving ordinary typing speeds behind." },
+  { name: "Galaxy", minWpm: 111, description: "Out-of-this-world speed! Your keyboard control is incredible." },
+  { name: "Legend", minWpm: 121, description: "A legendary typist! Your command of the keyboard is exceptional." },
+  { name: "Mythic", minWpm: 140, description: "Beyond ordinary speed. You've reached mythical typing status." }
 ];
 
 export function getRank(wpm) {
