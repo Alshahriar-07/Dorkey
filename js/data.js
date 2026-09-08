@@ -79,7 +79,7 @@ export const passages = passageDrafts.map((passage, index) => `${passage} ${pass
 export const ranks = [
   { name: "Baby Bunny", minWpm: 0, description: "Every fast typist starts somewhere. Keep hopping!" },
   { name: "Kitten", minWpm: 11, description: "Soft and steady! Your fingers are finding their rhythm." },
-  { name: "Puppy", minWpm: 21, description: "Good job! Your typing skills are growing every day." },
+  { name: "Rabbit", minWpm: 21, description: "Good job! Your typing skills are growing every day." },
   { name: "Bumblebee", minWpm: 31, description: "Clever and quick! You're getting comfortable with the keyboard." },
   { name: "Panda", minWpm: 41, description: "Calm, focused, and getting faster with every test." },
   { name: "Unicorn", minWpm: 51, description: "Small but speedy! Your typing rhythm is getting stronger." },
